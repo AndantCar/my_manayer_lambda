@@ -1,0 +1,11 @@
+.idea
+__pycache__
+**/*.pyc
+**/__pycache__
+*.pyc
+*.spec
+build/*
+dist/*
+dist
+build
+

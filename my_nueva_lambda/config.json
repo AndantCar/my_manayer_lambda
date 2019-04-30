@@ -1,0 +1,19 @@
+{
+  "FunctionName" : "Test_upLambda",
+  "Runtime" : "python3.6",
+  "Role" : "arn:aws:iam::717658649432:role/UltimaPrueba-RolLambdas-OD4YQQG6OTED",
+  "Handler" : "test_lambda.main_2",
+  "Description" : "test subido desde boto3",
+  "Timeout" : 15,
+  "MemorySize" : 128,
+  "Publish" : true,
+  "VpcConfig" : {},
+  "DeadLetterConfig" : {},
+  "Environment" : {"Variables": {"debug": "true", "variable_2": "dos"}},
+  "KMSKeyArn" : "",
+  "TracingConfig": {},
+  "Tags": {},
+  "aws_access_key_id": null,
+  "aws_secret_access_key": null,
+  "region_name": null
+}
